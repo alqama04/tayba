@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tayba/static/css/main.22e4d74a.css",
-    "main.js": "/tayba/static/js/main.846f3065.js",
+    "main.js": "/tayba/static/js/main.bcf86d9e.js",
     "reactPlayerYouTube.js": "/tayba/static/js/reactPlayerYouTube.02ed61f6.chunk.js",
     "reactPlayerSoundCloud.js": "/tayba/static/js/reactPlayerSoundCloud.e84955e3.chunk.js",
     "reactPlayerVimeo.js": "/tayba/static/js/reactPlayerVimeo.07d190d1.chunk.js",
@@ -55,7 +55,7 @@
     "static/media/banner.svg": "/tayba/static/media/banner.56feb3d1a88d6b94a861.svg",
     "index.html": "/tayba/index.html",
     "main.22e4d74a.css.map": "/tayba/static/css/main.22e4d74a.css.map",
-    "main.846f3065.js.map": "/tayba/static/js/main.846f3065.js.map",
+    "main.bcf86d9e.js.map": "/tayba/static/js/main.bcf86d9e.js.map",
     "reactPlayerYouTube.02ed61f6.chunk.js.map": "/tayba/static/js/reactPlayerYouTube.02ed61f6.chunk.js.map",
     "reactPlayerSoundCloud.e84955e3.chunk.js.map": "/tayba/static/js/reactPlayerSoundCloud.e84955e3.chunk.js.map",
     "reactPlayerVimeo.07d190d1.chunk.js.map": "/tayba/static/js/reactPlayerVimeo.07d190d1.chunk.js.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.22e4d74a.css",
-    "static/js/main.846f3065.js"
+    "static/js/main.bcf86d9e.js"
   ]
 }
