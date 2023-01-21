@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+.banner {
+    overflow: hidden;
+    background: url("../../media/images//Background/banner.svg")no-repeat;
+    background-blend-mode: darken;
+    background-position: top;
+    background-size: cover;
+}
+
+.banner h3 {
+    font-family: var(--pacifico);
+    margin: 0;
+    color: rgb(157, 17, 15);
+}
+
+.banner h4 {
+    color: #000;
+    margin-bottom: .9em;
+    font-family: var(--airzonia);
+    font-weight: bold;
+    color: rgb(46, 3, 3);
+    letter-spacing: 2.5px !important;
+}
+
+.banner h1 {
+    font-size: 4em;
+    letter-spacing: 1.6px;
+    font-family: var(--airzonia);
+    margin: 0;
+    color: rgb(46, 3, 3);
+}
+
+.service_contact,
+.banner .button {
+    font-family: var(--pacifico);
+    background: var(--btnBg);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 70px;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px auto;
+}
+
+.service_contact:hover,
+.banner button:hover {
+    background: var(--btnBg) !important;
+    color: #fff !important;
+
+}
+
+.service_videos {
+    background: url("../../media/images/Background//wave.svg")no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    position: relative;
+    margin: auto;
+
+}
+
+.makeUpImg h3,
+.service_videos h2 {
+    font-family: var(--pacifico);
+    color: rgb(157, 17, 15);
+    border-bottom: 2px double red;
+    width: max-content;
+    margin: auto;
+    border-radius: 6px;
+}
+
+
+
+/* media Screen */
+
+@media(max-width:792px) {
+    .banner h1 {
+        font-size: 2.5em;
+    }
+
+    .banner .button {
+        display: block;
+        margin: 0;
+        margin: 4px auto;
+        text-align: center;
+    }
+
+    .carousel {
+        margin-top: 2px !important;
+    }
+
+}

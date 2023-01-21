@@ -1,0 +1,44 @@
+.about_section{
+    overflow: hidden;
+    background: url("../../media/images//Background/banner.svg")no-repeat;
+    background-blend-mode: darken;
+    background-position:top;
+    background-size: cover;
+}
+.info_detail{
+    border-radius: 10px ;
+    margin-top: 30px;
+    display: flex;justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    font-family: var(--roboto);
+}
+.info_detail h4{
+    text-transform: capitalize;
+    color: #230311;
+}
+.info_detail_icon{
+    position: relative;
+    font-size: 1.8em;
+    transform: translateY(-20px);
+}
+.info_detail_icon:nth-child(n+1){
+    background: #f42b8b;
+    border-radius: 50%;
+    padding: 2px 10px;
+    color: aliceblue;
+
+}
+.about_my_story p{
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: 300;
+}
+
+@media(min-width:991px){
+    .artistImg{
+        width: 400px;
+        transform: translateY(-20px);
+    }
+}

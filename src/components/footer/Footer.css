@@ -1,0 +1,55 @@
+.footer_section{
+    position: relative;
+    /* transform: translateY(16px); */
+    background: url('../../media/images/Background/footerBg.jpg')no-repeat;
+    background-position: right center;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.social_media_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    font-size: 2em;
+    flex-basis:10px ;
+}
+.social_media_icons a :nth-child(n+1){
+    color: #fff;
+
+    box-shadow: 1px 2px #fff;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+/* about artist */
+.footer_about_artist{
+    color: #f2f2f2;
+}
+.use_ful_links,
+.footer_about_artist h3{
+    font-family: var(--pacifico);
+    text-shadow: 1px 1px  rgb(28, 26, 24);
+
+}
+.footer_about_artist p{
+    font-size: 0.8em;
+    font-family: sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 3px 0;
+    text-shadow: 1px 1px  rgb(28, 26, 24);
+}
+.footer_about_artist p:nth-child(3){
+    background: #000;
+    width: max-content;
+    border: 2px solid rgb(27, 26, 26);
+    border-radius: 10px;
+    outline: 2px solid rgb(56, 56, 56);
+}
+

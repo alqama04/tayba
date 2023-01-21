@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    letter-spacing: 1.1px;
+    word-spacing: 1.1px;
+    font-family: var(--roboto);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+li{
+    list-style-type: none;
+    padding: 0;
+}
+:root{
+    --pacifico:'Pacifico', cursive;
+    --airzonia : 'Arizonia', cursive;
+    --roboto:'Roboto Slab', serif;
+    --btnBg:rgb(228, 83, 131);
+}
+
+p{
+    font-weight: 400;
+    font-family: serif;
+    word-spacing: 1.1px;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
